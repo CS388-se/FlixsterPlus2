@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/tvShowMediaImage"
-        android:layout_width="260dp"
-        android:layout_height="390dp"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -30,6 +30,56 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvShowMediaImage" />
 
+    <TextView
+        android:id="@+id/tvShowFirstAirDateHolder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="First Air Date: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvShowMediaAbstract" />
+
+    <TextView
+        android:id="@+id/tvShowPopularityHolder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Popularity: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvShowFirstAirDateHolder" />
+
+
+    <TextView
+        android:id="@+id/tvShowReleaseDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Release Date Value"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvShowFirstAirDateHolder"
+        app:layout_constraintTop_toBottomOf="@+id/tvShowMediaAbstract" />
+
+    <TextView
+        android:id="@+id/tvShowPopularity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Popularity Value"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvShowPopularityHolder"
+        app:layout_constraintTop_toBottomOf="@+id/tvShowFirstAirDateHolder" />
     <TextView
         android:id="@+id/tvShowMediaAbstract"
         android:layout_width="0dp"

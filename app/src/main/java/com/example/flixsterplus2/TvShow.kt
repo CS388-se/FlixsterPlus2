@@ -21,5 +21,13 @@ class TvShow(
 
     @JvmField
     @SerializedName("overview")
-    var description: String? = null
+    var description: String? = null,
+
+    @JvmField
+    @SerializedName("first_air_date")
+    var firstAirDate: String? = null,
+
+    @JvmField
+    @SerializedName("popularity")
+    var popularity: Float? = null
 ) : java.io.Serializable

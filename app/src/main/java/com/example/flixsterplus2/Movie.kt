@@ -21,5 +21,13 @@ data class Movie(
 
     @JvmField
     @SerializedName("overview")
-    var description: String? = null
+    var description: String? = null,
+
+    @JvmField
+    @SerializedName("release_date")
+    var releaseDate: String? = null,
+
+    @JvmField
+    @SerializedName("popularity")
+    var popularity: Float? = null
 ) : java.io.Serializable
