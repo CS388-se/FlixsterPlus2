@@ -58,7 +58,7 @@
 
 
     <TextView
-        android:id="@+id/tvShowReleaseDate"
+        android:id="@+id/tvShowFirstAirDate"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"

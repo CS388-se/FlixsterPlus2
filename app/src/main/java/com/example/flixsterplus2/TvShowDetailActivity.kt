@@ -23,7 +23,7 @@ class TvShowDetailActivity : AppCompatActivity() {
         titleTextView = findViewById(R.id.tvShowMediaTitle)
         abstractTextView = findViewById(R.id.tvShowMediaAbstract)
         popularityTextView = findViewById(R.id.tvShowPopularity)
-        firstAirDateTextView = findViewById(R.id.tvShowFirstAirDateHolder)
+        firstAirDateTextView = findViewById(R.id.tvShowFirstAirDate)
 
         // TODO: Get the extra from the Intent
         val tvShow = intent.getSerializableExtra(TV_SHOW_EXTRA) as TvShow
