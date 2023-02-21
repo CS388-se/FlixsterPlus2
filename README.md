@@ -26,13 +26,14 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Kapture 2023-02-17 at 16 07 33](https://user-images.githubusercontent.com/66531257/219793552-fccdcdcf-6105-4e16-a5d1-a0789d7925f3.gif)
+![Kapture 2023-02-20 at 23 16 55](https://user-images.githubusercontent.com/66531257/220246478-33f53263-6a21-44f3-afac-0a4f44f1ad22.gif)
 
 GIF created with [Kap](https://getkap.co/).
 
+**The three new pieces of data not shown in the main view (shown in the details page of both tv shows and movies) are description, popularity and release / first air date.**
+
 ## Additional Code Proof
 **Note: These images are to show the some of the implemented required and optional features that are not completely obvious from the GIF.**
-
 
 New Endpoints used: `movie/popular` and `tv/popular`
 
